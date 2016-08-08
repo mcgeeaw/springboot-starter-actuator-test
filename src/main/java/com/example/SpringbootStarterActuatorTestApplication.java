@@ -5,15 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.*;
 
+@Controller
 @SpringBootApplication
 public class SpringbootStarterActuatorTestApplication {
 	
-	@RequestMapping("/")
-	@ResponseBody
-	String home() {
-		return "Hello World!";
-	}
-
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
