@@ -9,7 +9,7 @@ import org.springframework.stereotype.*;
 @SpringBootApplication
 public class SpringbootStarterActuatorTestApplication {
 	
-	@RequestMapping("/")
+	@RequestMapping("/hello")
 	@ResponseBody
 	String home() {
 		return "Hello World!";
